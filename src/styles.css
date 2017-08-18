@@ -1,1 +1,24 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+  background-color: #C6E0F8;
+  font-family: 'Roboto', Arial, sans-serif;
+  min-width: 960px;
+  margin: 0 auto;
+  padding: 0 40px;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  font-size: 18px;
+  list-style-type: none;
+  height: 48px;
+  width: 100%;
+  color: rgba(0,0,0, 0.63);
+  border-bottom: 1px dashed rgba(0,0,0, 0.42);
+  display: flex;
+  align-items: center;
+}
